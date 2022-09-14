@@ -1,23 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Todo app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+ <header class="cabecalho">
+   <div class="cabecalho__container">
+  <h1 class="cabecalho__titulo">Todo</h1>
+  <button class="cabecalho__btn" id="btn">
+  <img class="cabecalho__lua" src="images/icon-moon.svg" alt="moon icon to apply dark mode" />
+  <img class="cabecalho__sol" src="images/icon-sun.svg">
+  </button>
+  </div>
 
-  Todo
+  <div class="todo__cabecalho">
+  <div class="todo__circulo">
+  </div>
+  <label for="todo-input"></label>
+  <input type="text" class="todo__input" name="todo-input"id="todo-input" placeholder="Create a new todo..." />
+  </div>
+  
 
+ </header>
+  
   <!-- Add dynamic number --> items left
 
   All
@@ -30,7 +45,7 @@
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Paola Kossa</a>.
   </div>
 </body>
 </html>
