@@ -23,6 +23,7 @@ body{
 
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 18px;
+	background-color: var(--azul-muito-escuro);
 	
 }
 
@@ -58,17 +59,17 @@ body{
 	display: none;
 }
 
-.todo__circulo{
+.todo__adicionar{
    width:15px;
    height: 15px;
-   border: 0.3px solid var(--azul-desaturado-muito-escuro);
+   border: 0.3px solid var(--azul-cinza-escuro);
    border-radius: 50%;
    background: transparent;
 }
 
 .todo__cabecalho {
    width:80%;
-   background-color: var(--azul-muito-escuro) ;
+   background-color: var(--azul-cinza-muito-escuro2) ;
    padding: 1rem 0.5rem;
    border-radius: 5px;
    display: flex;
@@ -87,6 +88,46 @@ body{
 .attribution { 
 	font-size: 11px; 
 	text-align: center; 
+	margin-top:10rem;
 }
 .attribution a {
  color: hsl(228, 45%, 44%); }
+
+ .todo__tarefa {
+   width:80%;
+   background-color: var(--azul-cinza-muito-escuro2) ;
+   padding: 1rem 0.5rem;
+   border-radius: 5px;
+   display: flex;
+   align-items: center;
+   margin-left: 2rem;
+   margin-top: -2rem;
+   
+}
+
+.todo__check{
+	width:15px;
+   height: 15px;
+   border: 0.3px solid var(--azul-cinza-escuro);
+   border-radius: 50%;
+   background: transparent;
+   margin-left: 2.5rem;
+   position: relative;
+   top: -.35rem;
+}
+
+.todo__limpar{
+   width:15px;
+   height: 15px;
+   border-radius: 50%;
+   background: transparent;
+   margin-left: 2.5rem;
+   position: relative;
+   top: -1.5rem;
+   left: 17rem;
+   border: none;
+}
+
+.todo__limpar--img{
+	width: 15px;
+}
